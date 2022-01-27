@@ -57,7 +57,7 @@
 {#if button === true}
     <button on:click={useCurrentLoacation}>
         <strong>
-            Mein Standort
+            My Location
         </strong>
     </button>
 {/if}
