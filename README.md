@@ -12,17 +12,16 @@ After you initiated a snel project and added the code shown below, you are able 
 
 ## Usage Example
 
-Import the component and set longitude and latitude for the Marker, as well as button={true} or button={false} depending on whether you want the "My Location" button.
+Import the component and set longitude and latitude for the Marker.
 
 ```javascript
  import Map from "https://deno.land/x/svelte_map/Maps.svelte"
  
  let long = 50;
  let lat = 50;
- let button = true;
 ```
 
-Use the component in your code. Set randomButton equal to {true} or {false} depending on whether the Button should appear.
+Use the component in your code. Set long and lat and the button equal to {true} or {false} depending on whether the "My Location" button should appear.
 
 ```html
 <Map long={long} lat={lat} button={true} />
