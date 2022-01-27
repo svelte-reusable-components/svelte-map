@@ -8,7 +8,7 @@ In case you have not created a snel project before, head to https://deno.land/x/
 
 To then use it, import the link "https://deno.land/x/svelte_map/Maps.svelte" as shown in the usage example.
 
-After you initiated a snel project and added the code shown below, you are able to see in when running the project with "trex run start".
+After you initiated a snel project and added the code shown below, you are able to see the component when running the project with "trex run start".
 
 ## Usage Example
 
