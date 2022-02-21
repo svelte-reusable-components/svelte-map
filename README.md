@@ -26,3 +26,29 @@ Use the component in your code. Set long and lat and the button equal to {true} 
 ```html
 <Map long={long} lat={lat} button={true} />
 ```
+
+#### Change Map Center
+```html
+<Map bind:this={svelteMap} />
+```
+
+```javascript
+let svelteMap
+svelteMap.setMapCenter({
+    lat: 30.08,
+    long: -97.14,
+})
+```
+
+#### Show markers on map
+
+Pass in an array of coordinates for displaying markers on the map
+
+```javascript
+svelteMap.showMarkersForCoords([
+    {
+        lat: 30.08,
+        long: -97.14,
+    },
+])
+```
